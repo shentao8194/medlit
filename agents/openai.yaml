@@ -1,0 +1,15 @@
+interface:
+  display_name: MedLit
+  short_description: 按 PICO 检索医学文献，通过开放全文库、期刊官网或学校授权下载 PDF 与补充材料
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+  - type: browser
